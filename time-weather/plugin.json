@@ -1,0 +1,16 @@
+{
+  "name": "time-weather",
+  "pluginName": "Time & Weather",
+  "version": "1.0.0",
+  "description": "Display current time, date, and weather information",
+  "main": "index.html",
+  "preload": "preload.js",
+  "logo": "logo.png",
+  "features": [
+    {
+      "code": "time-weather",
+      "explain": "Show current time, date and weather",
+      "cmds": ["time", "weather", "now", "date", "tw"]
+    }
+  ]
+}
