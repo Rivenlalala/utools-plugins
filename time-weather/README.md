@@ -25,7 +25,7 @@ You can activate this plugin by typing any of these keywords in uTools:
 
 ## Weather Data Source
 
-Weather data is fetched from [wttr.in](https://wttr.in), a free weather service that doesn't require an API key. Location is auto-detected based on your IP address.
+Weather data is fetched from [Open-Meteo](https://open-meteo.com), a free weather API with proper CORS support that doesn't require an API key. Location is auto-detected using [ipapi.co](https://ipapi.co) IP geolocation service.
 
 ## Installation
 
@@ -37,8 +37,8 @@ Weather data is fetched from [wttr.in](https://wttr.in), a free weather service 
 ## Files
 
 - `plugin.json` - Plugin configuration
-- `index.html` - Main UI
-- `preload.js` - Node.js bridge for weather API calls
+- `index.html` - Main UI (includes weather fetch using browser fetch API)
+- `preload.js` - uTools plugin mode configuration
 - `logo.png` - Plugin icon (44x44 PNG)
 - `README.md` - This file
 
