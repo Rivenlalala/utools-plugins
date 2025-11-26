@@ -34,20 +34,12 @@ Weather data is fetched from [wttr.in](https://wttr.in), a free weather service 
 3. Select the `plugin.json` file from this folder
 4. The plugin will be loaded and available for use
 
-## Logo
-
-The plugin includes an SVG logo (`logo.svg`). If uTools requires PNG format:
-
-1. Open `logo.svg` in a browser or image editor
-2. Export/Save as PNG at 44x44 pixels
-3. Save as `logo.png` in this folder
-
 ## Files
 
 - `plugin.json` - Plugin configuration
 - `index.html` - Main UI
 - `preload.js` - Node.js bridge for weather API calls
-- `logo.svg` - Plugin icon (SVG format)
+- `logo.png` - Plugin icon (44x44 PNG)
 - `README.md` - This file
 
 ## Development
